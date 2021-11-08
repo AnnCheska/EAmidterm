@@ -18,6 +18,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ContactsComponent } from './pages/contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     NavComponent,
     ProfileComponent,
     GalleryComponent,
-    ContactComponent
+    ContactComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
